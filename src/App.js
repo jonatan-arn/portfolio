@@ -10,7 +10,7 @@ function App() {
 
       <div className="center">
         <Main></Main>
-        <ListProyect id="work"></ListProyect>
+        {/* <ListProyect id="work"></ListProyect> */}
       </div>
     </div>
   );

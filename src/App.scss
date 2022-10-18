@@ -5,6 +5,16 @@
   align-items: center;
 
   gap: 10rem;
-  //Remove on small screen
-  margin-top: 10rem;
+}
+@media only screen and (max-width: 600px),
+  (min-width: 600px),
+  (min-width: 768px) {
+  .center {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  .center {
+    margin-top: 10rem;
+  }
 }
