@@ -1,0 +1,10 @@
+.Tag {
+  border-radius: 20px;
+  padding: 0.25rem 0.5rem;
+}
+.notSelected {
+  background: rgba(184, 197, 214, 0.28);
+}
+.selected {
+  background: var(--accent);
+}

@@ -1,0 +1,58 @@
+:root {
+  --primary: #edf5fc;
+  --second: #b8c5d6;
+  --tre: #a39ba8;
+  --second-black: #272d2d;
+  --accent: #ffd23f;
+  --primary-text: #000000;
+  --second-text: #a39ba8;
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("./assets/fonts/roboto/Roboto-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./assets/fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Roboto-Light", "Roboto-Bold";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
+}
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+button,
+a,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  text-decoration: none;
+}
