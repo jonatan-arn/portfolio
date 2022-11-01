@@ -6,6 +6,7 @@ export const proyects = [
     img: "calc.png",
     desc: "Calculato app made with angular and hosted in netfly",
     name: "CalcApp",
+    hide: false,
   },
   {
     prevLink: "http://localhost:3000/",
@@ -14,6 +15,7 @@ export const proyects = [
     img: "calc.png",
     desc: "Calculato app made with angular and hosted in netfly",
     name: "CalcApp",
+    hide: false,
   },
   {
     prevLink: "http://localhost:3000/",
@@ -22,6 +24,7 @@ export const proyects = [
     img: "calc.png",
     desc: "Calculato app made with angular and hosted in netfly",
     name: "CalcApp",
+    hide: false,
   },
   {
     prevLink: "http://localhost:3000/",
@@ -30,5 +33,28 @@ export const proyects = [
     img: "calc.png",
     desc: "Calculato app made with angular and hosted in netfly",
     name: "CalcApp",
+    hide: false,
   },
+  {
+    prevLink: "http://localhost:3000/",
+    codeLink: "https://github.com/jonatan-arn/portfolio",
+    tags: ["Java", "React", "Angular"],
+    img: "calc.png",
+    desc: "Calculato app made with angular and hosted in netfly",
+    name: "CalcApp",
+    hide: false,
+  },
+];
+export const tags = [
+  "All",
+  "Java",
+  "React",
+  "Angular",
+  "HTML&CSS",
+  "Spring",
+  "Express",
+  "Exprsesss",
+  "Exprsssssss",
+  "Expresssss",
+  "Angularasdad",
 ];
