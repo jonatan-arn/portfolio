@@ -1,5 +1,28 @@
-.proyectsContainer {
-  grid-template-columns: repeat(4, 1fr);
-  display: grid;
-  gap: 1.813rem;
+@media only screen and (max-width: 600px),
+  (min-width: 600px),
+  (min-width: 768px) {
+  .proyectsContainer {
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 1.813rem;
+  }
+  .tags-list {
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .proyectsContainer {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 1.813rem;
+  }
+  .tags-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
 }

@@ -3,9 +3,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  gap: 10rem;
+  gap: 20rem;
 }
+@media only screen and (max-width: 600px),
+  (min-width: 600px),
+  (min-width: 768px) {
+  .center {
+    gap: 0rem;
+  }
+}
+
 @media only screen and (max-width: 600px),
   (min-width: 600px),
   (min-width: 768px) {
@@ -16,5 +23,6 @@
 @media only screen and (min-width: 1250px) {
   .center {
     margin-top: 10rem;
+    gap: 20rem;
   }
 }

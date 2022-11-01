@@ -1,21 +1,24 @@
-import React from "react";
-import { proyects } from "../../../data";
+import React, { useContext } from "react";
 import Proyect from "../Proyect/Proyect";
 import "./ListProyect.scss";
+import Tag from "../Tag/Tag";
+import { Context } from "../../../utils/context";
+
 export default function ListProyect() {
+  const { listTags, proyect } = useContext(Context);
+
   return (
-    <div className="proyectsContainer">
-      {proyects.map(({ name, desc, img, tags, codeLink, prevLink }, i) => (
-        <Proyect
-          name={name}
-          desc={desc}
-          img={img}
-          tags={tags}
-          codeLink={codeLink}
-          precLink={prevLink}
-          key={i}
-        ></Proyect>
-      ))}
-    </div>
+    <>
+      <div className="tags-list">
+        {listTags.map((name, i) => (
+          <Tag text={name} useHandler={true} key={i}></Tag>
+        ))}
+      </div>
+      <div className="proyectsContainer">
+        {proyect.map((p, i) => (
+          <Proyect proyect={p} key={i}></Proyect>
+        ))}
+      </div>
+    </>
   );
 }

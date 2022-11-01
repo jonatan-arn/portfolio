@@ -1,0 +1,24 @@
+.work-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  .work-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 15%;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .work-title {
+    font-size: 2rem;
+    color: var(--second-black);
+  }
+
+  .work-desc {
+    font-size: 1rem;
+    color: var(--second-text);
+  }
+}

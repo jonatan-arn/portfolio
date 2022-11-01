@@ -1,7 +1,10 @@
 import React from "react";
 import main_img from "../../assets/image/main.svg";
 import "./Main.scss";
+import { useTranslation } from "react-i18next";
+
 export default function Main() {
+  const { t } = useTranslation();
   return (
     <div className="main-container">
       <div className="main-img-container">
@@ -9,13 +12,11 @@ export default function Main() {
       </div>
       <div className="main-text">
         <h1 className="main-title">
-          Hi, I’m Jonatan and I’m a <br />
-          <span className="main-position"> Web Fullstack Developer</span>
+          {t("main.title")}
+          <br />
+          <span className="main-position"> {t("main.position")}</span>
         </h1>
-        <h2 className="main-desc">
-          I'm a Fullstack developer based in Valencia, Spain. I start working in
-          2022 and I specialize in creating web apps.
-        </h2>
+        <h2 className="main-desc">{t("main.desc")}</h2>
       </div>
     </div>
   );
