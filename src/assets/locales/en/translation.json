@@ -1,7 +1,10 @@
 {
-  "navbar.work": "WORK",
-  "navbar.resume": "CURRICULUM",
-  "navbar.contact": "CONTACTE",
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.resume": "Resume",
+  "nav.skills": "Skills",
+  "nav.portfolios": "Portfolios",
+  "nav.contact": "Contact",
   "main.title": " Hi, I’m Jonatan and I’m a",
   "main.position": "Web Fullstack Developer",
   "main.desc": "I'm a Fullstack developer based in Valencia, Spain. I start working in 2022 and I specialize in creating web apps.",
