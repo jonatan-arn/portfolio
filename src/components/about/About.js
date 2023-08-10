@@ -9,12 +9,12 @@ function Home() {
   return (
     <>
       <div id="about" className="tag">
-        <AiOutlineUser /> <span>{t("about-tag")}</span>
+        <AiOutlineUser /> <span>{t("about.tag")}</span>
       </div>
       <h1 className="about-h">
-        {t("about-intro")} <span className="name"> {t("about-app")}</span>
+        {t("about.intro")} <span className="name"> {t("about.app")}</span>
       </h1>
-      <p className="about-p">{t("about-desc")}</p>
+      <p className="about-p">{t("about.desc")}</p>
     </>
   );
 }

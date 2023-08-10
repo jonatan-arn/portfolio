@@ -11,10 +11,10 @@ function Resume() {
   return (
     <>
       <div id="resume" className="tag">
-        <FiBriefcase /> <span>{t("resume-tag")}</span>
+        <FiBriefcase /> <span>{t("resume.tag")}</span>
       </div>
       <h1 className="resume-h">
-        {t("resume-intro")} <span className="name"> {t("resume-exp")}</span>
+        {t("resume.intro")} <span className="name"> {t("resume.exp")}</span>
       </h1>
       <div className="resume-timeline">
         {resumeItems.map((i, k) => (
