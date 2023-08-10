@@ -78,3 +78,26 @@
     }
   }
 }
+.container-btn {
+  display: flex;
+  justify-content: center;
+
+  .theme-btn {
+    background: var(--second);
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    /* text-transform: uppercase; */
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 11px;
+    border: 2px solid var(--second);
+    justify-content: center;
+  }
+}
