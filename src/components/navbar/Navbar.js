@@ -27,7 +27,7 @@ function Navbar() {
         <FaBars />
       </span>
       <NavbarMobile visible={visible} hide={hide} />
-      <ul class="nav scroll-nav ">
+      <ul className="nav scroll-nav ">
         <NavIcon icon={<AiOutlineHome />} text="home" />
         <NavIcon icon={<AiOutlineUser />} text="about" />
         <NavIcon icon={<FiBriefcase />} text="resume" />

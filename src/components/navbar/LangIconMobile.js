@@ -12,8 +12,8 @@ function LangIconMobile({ icon, text }) {
   return (
     <>
       <li className="nav-ele" onClick={() => changeLanguage()}>
-        <a class="active" href={"#" + text}>
-          <i class="nav-icon">
+        <a className="active" href={"#" + text}>
+          <i className="nav-icon">
             {icon} <span>{t("nav." + text)}</span>
           </i>
         </a>

@@ -20,21 +20,21 @@ function NavbarMobile({ visible, hide }) {
   return (
     <>
       <div
-        class={
+        className={
           visible
             ? "responsive-sidebar-menu visible"
             : "responsive-sidebar-menu"
         }
       >
-        <div class="overlay" onClick={hide}></div>
+        <div className="overlay" onClick={hide}></div>
         <div
-          class={
+          className={
             visible ? "sidebar-menu-inner visible-nav" : "sidebar-menu-inner"
           }
         >
-          <div class="menu-wrap">
+          <div className="menu-wrap">
             <p>Menu</p>
-            <ul class=" scroll-nav-responsive ">
+            <ul className=" scroll-nav-responsive ">
               <NavIconMobile icon={<AiOutlineHome />} text="home" />
               <NavIconMobile icon={<AiOutlineUser />} text="about" />
               <NavIconMobile icon={<FiBriefcase />} text="resume" />
@@ -44,22 +44,22 @@ function NavbarMobile({ visible, hide }) {
             </ul>
           </div>
 
-          <div class="sidebar-social">
+          <div className="sidebar-social">
             <p>Social</p>
-            <ul class="social-links d-flex align-items-center">
+            <ul className="social-links d-flex align-items-center">
               <li className="nav-ele">
-                <a class="active" href="https://github.com/jonatan-arn/">
-                  <i class="nav-icon">
+                <a className="active" href="https://github.com/jonatan-arn/">
+                  <i className="nav-icon">
                     <AiFillGithub />
                   </i>
                 </a>
               </li>
               <li className="nav-ele">
                 <a
-                  class="active"
+                  className="active"
                   href="https://www.linkedin.com/in/jonatan-arnandis/"
                 >
-                  <i class="nav-icon">
+                  <i className="nav-icon">
                     <AiFillLinkedin />
                   </i>
                 </a>

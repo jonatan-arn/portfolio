@@ -13,17 +13,17 @@ function PortfolioItem({ project }) {
   return (
     <>
       <div
-        class="portfolio-container"
+        className="portfolio-container"
         onMouseEnter={() => setIsVisible(true)}
         onMouseLeave={() => setIsVisible(false)}
       >
-        <div class="portfolio-item">
-          <div class="portfolio-item-inner">
+        <div className="portfolio-item">
+          <div className="portfolio-item-inner">
             <a href={project.link} className="portfolio-container-img">
               <img src={img} className="portfolio-img" alt={project.img} />
             </a>
 
-            <ul class="portfolio-categories">
+            <ul className="portfolio-categories">
               {project.categories.map((c, k) => (
                 <li key={k}>
                   <a href="" className={isVisible ? categoriev : categorie}>

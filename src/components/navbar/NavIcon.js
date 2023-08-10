@@ -11,10 +11,10 @@ function NavIcon({ icon, text }) {
   return (
     <>
       <li className="nav-ele">
-        <a class="active" href={"#" + text}>
+        <a className="active" href={"#" + text}>
           <span className={isVisible ? v : nv}>{t("nav." + text)}</span>
           <i
-            class="nav-icon"
+            className="nav-icon"
             onMouseEnter={() => setIsVisible(true)}
             onMouseLeave={() => setIsVisible(false)}
           >

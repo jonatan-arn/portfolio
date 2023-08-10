@@ -16,10 +16,10 @@ function LangIcon({ icon, text }) {
   return (
     <>
       <li className="nav-ele" onClick={() => changeLanguage()}>
-        <a class="active">
+        <a className="active">
           <span className={isVisible ? v : nv}>{t("nav." + text)}</span>
           <i
-            class="nav-icon"
+            className="nav-icon"
             onMouseEnter={() => setIsVisible(true)}
             onMouseLeave={() => setIsVisible(false)}
           >
