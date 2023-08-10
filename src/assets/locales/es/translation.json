@@ -16,5 +16,17 @@
   "about-tag": "Sobre mi",
   "about-intro": "Cada gran idea viene con una mejor aplicación",
   "about-app": "mejor aplicación",
-  "about-desc": "Desde 2021 cuando empeze a programar haciendo algunos projectos personales y desde 2022 trabajando para empresas. Tengo confianza en mis aptitues para aprendre y seguir mejorando como desarrollador."
+  "about-desc": "Desde 2021 cuando empeze a programar haciendo algunos projectos personales y desde 2022 trabajando para empresas. Tengo confianza en mis aptitues para aprendre y seguir mejorando como desarrollador.",
+  "resume-tag": "Curriculum",
+  "resume-intro": "Educación &",
+  "resume-exp": "Experiencia",
+  "resume.date.present": "2022 - Presente",
+  "resume.position.present.1": "VueJs & Spring Desarrollador",
+  "resume.position.present.2": "CFGS Aplicaciones web",
+  "resume.date.2021": "2021 - 2021",
+  "resume.position.2021.1": "Becario Angular & Ionic ",
+  "resume.date.2019": "2019 - 2021",
+  "resume.position.2019.1": "CFGS Aplicaciones multiplataforma",
+  "resume.date.2017": "2017 - 2019",
+  "resume.position.2017.1": "CFGM Sistemas Microinformáticos"
 }

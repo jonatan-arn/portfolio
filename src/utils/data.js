@@ -45,6 +45,35 @@ export const proyects = [
     hide: false,
   },
 ];
+export const resumeItem = [
+  {
+    date: "resume.date.present",
+    activities: [
+      { desc: "resume.position.present.1", place: "Prodevelop" },
+      { desc: "resume.position.present.2", place: "IES font de sant lluis" },
+    ],
+  },
+
+  {
+    date: "resume.date.2021",
+    activities: [{ desc: "resume.position.2021.1", place: "Blat Market" }],
+  },
+  {
+    date: "resume.date.2019",
+    activities: [
+      {
+        desc: "resume.position.2019.1",
+        place: "IES consuelo aranda",
+      },
+    ],
+  },
+  {
+    date: "resume.date.2017",
+    activities: [
+      { desc: "resume.position.2017.1", place: "IES consuelo aranda" },
+    ],
+  },
+];
 export const tags = [
   "All",
   "Java",

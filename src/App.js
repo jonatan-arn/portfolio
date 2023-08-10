@@ -4,6 +4,7 @@ import Main from "./components/main/Main";
 import Container from "./components/container/Container";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Resume from "./components/resume/Resume";
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Main></Main>
       <Container children={<Home />}></Container>
       <Container children={<About />}></Container>
+      <Container children={<Resume />}></Container>
       <div className="center"></div>
     </div>
   );
