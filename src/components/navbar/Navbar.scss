@@ -4,8 +4,7 @@
   border-radius: 30px;
   position: fixed;
   right: 68px;
-  top: 322px;
-
+  top: 225px;
   text-align: center;
   gap: 20px;
   padding: 24px 0;
@@ -58,7 +57,7 @@
   }
 }
 .nav-icon:hover {
-  color: #ffd23f94;
+  color: var(--accent);
 }
 
 @media (max-width: 1220px) {
