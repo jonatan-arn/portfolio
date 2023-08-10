@@ -9,10 +9,10 @@ export default function Main() {
     <div class="left-sidebar">
       <div class="sidebar-header ">
         <span>Jonatan Arnandis</span>
-        <span class="designation">Fullstack Web Developer</span>
+        <span class="designation">{t("main.position")}</span>
       </div>
       <h2 class="text-sidebar">jonatanarnandis@gmail.com</h2>
-      <h2 class="text-sidebar">Base in Valencia, Spain </h2>
+      <h2 class="text-sidebar">{t("main.home")} </h2>
       <ul class="social-profile ">
         <li>
           <a href="https://github.com/jonatan-arn/">
