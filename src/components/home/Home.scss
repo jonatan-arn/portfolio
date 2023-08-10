@@ -1,0 +1,20 @@
+.tag {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  border: 1px solid #565656;
+  padding: 9px 20px;
+  border-radius: 30px;
+  margin-bottom: 53px;
+  display: inline-flex;
+  align-items: center;
+  svg {
+    margin-bottom: 1px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+}
+.name {
+  color: var(--accent);
+}

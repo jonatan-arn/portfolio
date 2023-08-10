@@ -1,0 +1,15 @@
+.page-section {
+  overflow: hidden;
+  padding: 90px 0;
+  .container {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: auto;
+    .content {
+      max-width: 770px;
+      width: 100%;
+      margin-left: auto;
+      position: relative;
+    }
+  }
+}
