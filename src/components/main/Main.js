@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Main.scss";
 import { useTranslation } from "react-i18next";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
@@ -6,8 +6,7 @@ import i18next from "i18next";
 
 export default function Main() {
   const { t } = useTranslation();
-  const [language, setLanguage] = useState(i18next.language);
-  let pdf = language == "es" ? "/cv_es.pdf" : "/cv_en.pdf";
+  let pdf = i18next.language == "es" ? "/cv_es.pdf" : "/cv_en.pdf";
   return (
     <div class="left-sidebar">
       <div class="sidebar-header ">

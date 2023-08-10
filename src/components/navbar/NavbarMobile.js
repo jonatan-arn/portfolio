@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 import "./NavbarMobile.scss";
@@ -6,9 +6,10 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { FiBriefcase } from "react-icons/fi";
 import { IoShapesOutline } from "react-icons/io5";
 import { TbGripVertical } from "react-icons/tb";
-import { BiEnvelope } from "react-icons/bi";
 import NavIconMobile from "./NavIconMobile";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { MdLanguage } from "react-icons/md";
+import LangIconMobile from "./LangIconMobile";
 
 function NavbarMobile({ visible, hide }) {
   const { t } = useTranslation();
@@ -39,7 +40,7 @@ function NavbarMobile({ visible, hide }) {
               <NavIconMobile icon={<FiBriefcase />} text="resume" />
               <NavIconMobile icon={<IoShapesOutline />} text="skills" />
               <NavIconMobile icon={<TbGripVertical />} text="portfolios" />
-              <NavIconMobile icon={<BiEnvelope />} text="contact" />
+              <LangIconMobile icon={<MdLanguage />} text="language" />
             </ul>
           </div>
 

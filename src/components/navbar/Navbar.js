@@ -6,9 +6,11 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { FiBriefcase } from "react-icons/fi";
 import { IoShapesOutline } from "react-icons/io5";
 import { TbGripVertical } from "react-icons/tb";
-import { BiEnvelope } from "react-icons/bi";
+import { MdLanguage } from "react-icons/md";
 
 import NavIcon from "./NavIcon";
+import LangIcon from "./LangIcon";
+
 import NavbarMobile from "./NavbarMobile";
 import { FaBars } from "react-icons/fa";
 
@@ -31,7 +33,7 @@ function Navbar() {
         <NavIcon icon={<FiBriefcase />} text="resume" />
         <NavIcon icon={<IoShapesOutline />} text="skills" />
         <NavIcon icon={<TbGripVertical />} text="portfolios" />
-        <NavIcon icon={<BiEnvelope />} text="contact" />
+        <LangIcon icon={<MdLanguage />} text="language" />
       </ul>
     </>
   );
