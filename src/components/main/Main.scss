@@ -59,6 +59,7 @@
     border-color: var(--accent);
   }
 }
+
 @media (max-width: 1220px) {
   .left-sidebar {
     position: relative !important;
@@ -68,6 +69,7 @@
     top: 0 !important;
     transform: translateY(0) !important;
     margin-top: 20px;
+    border: none;
     .text-sidebar {
       font-size: 25px !important;
     }

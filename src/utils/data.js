@@ -1,40 +1,20 @@
+import { BiLogoReact, BiLogoNodejs } from "react-icons/bi";
+import { FaVuejs } from "react-icons/fa";
+import { LiaAngular } from "react-icons/lia";
+import { IoLogoIonic } from "react-icons/io";
+import { SiSpringboot } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
+export const skillData = [
+  { iconename: BiLogoReact, name: "React" },
+  { iconename: FaVuejs, name: "Vue" },
+  { iconename: LiaAngular, name: "Angular" },
+  { iconename: BiLogoNodejs, name: "Node" },
+  { iconename: IoLogoIonic, name: "Ionic" },
+  { iconename: SiSpringboot, name: "Spring boot" },
+  { iconename: DiMysql, name: "Sql" },
+];
+
 export const proyects = [
-  {
-    prevLink: "http://localhost:3000/",
-    codeLink: "https://github.com/jonatan-arn/portfolio",
-    tags: ["Java", "React", "Angular"],
-    img: "calc.png",
-    desc: "Calculato app made with angular and hosted in netfly",
-    name: "CalcApp",
-    hide: false,
-  },
-  {
-    prevLink: "http://localhost:3000/",
-    codeLink: "https://github.com/jonatan-arn/portfolio",
-    tags: ["Java", "React", "Spring"],
-    img: "calc.png",
-    desc: "Calculato app made with angular and hosted in netfly",
-    name: "CalcApp",
-    hide: false,
-  },
-  {
-    prevLink: "http://localhost:3000/",
-    codeLink: "https://github.com/jonatan-arn/portfolio",
-    tags: ["Java", "React"],
-    img: "calc.png",
-    desc: "Calculato app made with angular and hosted in netfly",
-    name: "CalcApp",
-    hide: false,
-  },
-  {
-    prevLink: "http://localhost:3000/",
-    codeLink: "https://github.com/jonatan-arn/portfolio",
-    tags: ["Java", "React", "HTML&CSS"],
-    img: "calc.png",
-    desc: "Calculato app made with angular and hosted in netfly",
-    name: "CalcApp",
-    hide: false,
-  },
   {
     prevLink: "http://localhost:3000/",
     codeLink: "https://github.com/jonatan-arn/portfolio",
