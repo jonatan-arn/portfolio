@@ -5,10 +5,11 @@
   "nav.skills": "Skills",
   "nav.portfolios": "Portfolios",
   "nav.contact": "Contacto",
-  "main.title": " Hola, soy Jonatan y soy un ",
-  "main.position": "Web Fullstack Developer",
-  "main.desc": "Soy un desarrollador Fullstack  que se encuentra en Valencia. Empeze a trabajar en 2022 y me especializo en crear apliaciones web.",
-  "work.title": "Trabajo",
-  "work.desc": "Puedes ver mis proyectos.",
-  "work.desc.2": "Si tienes alguna pregunta siente libre de preguntar."
+  "main.position": "Fullstack Desarrollador Web",
+  "home.tag": "Introducion",
+  "home.intro": "Bueans soy",
+  "home.position": "Fullstack Desarrollador Web",
+  "home.desc": "Imaginando y creando aplicaciones.",
+  "home.year": "2+",
+  "home.exp": "Años de experiencia"
 }

@@ -3,20 +3,16 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import translationEN from "../assets/locales/en/translation.json";
 import translationES from "../assets/locales/es/translation.json";
-import translationCA from "../assets/locales/ca/translation.json";
 import Backend from "i18next-http-backend";
 
 const fallbackLng = ["en"];
-const availableLanguages = ["en", "es", "ca"];
+const availableLanguages = ["en", "es"];
 const resources = {
   en: {
     translation: translationEN,
   },
   es: {
     translation: translationES,
-  },
-  ca: {
-    translation: translationCA,
   },
 };
 i18n
