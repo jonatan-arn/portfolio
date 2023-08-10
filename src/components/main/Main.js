@@ -1,23 +1,34 @@
 import React from "react";
-import main_img from "../../assets/image/main.svg";
 import "./Main.scss";
 import { useTranslation } from "react-i18next";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 export default function Main() {
   const { t } = useTranslation();
   return (
-    <div className="main-container">
-      <div className="main-img-container">
-        <img className="main-img" src={main_img} alt="svg illustration" />
+    <div class="left-sidebar">
+      <div class="sidebar-header ">
+        <span>Jonatan Arnandis</span>
+        <span class="designation">Fullstack Web Developer</span>
       </div>
-      <div className="main-text">
-        <h1 className="main-title">
-          {t("main.title")}
-          <br />
-          <span className="main-position"> {t("main.position")}</span>
-        </h1>
-        <h2 className="main-desc">{t("main.desc")}</h2>
-      </div>
+      <h2 class="text-sidebar">jonatanarnandis@gmail.com</h2>
+      <h2 class="text-sidebar">Base in Valencia, Spain </h2>
+      <ul class="social-profile ">
+        <li>
+          <a href="https://github.com/jonatan-arn/">
+            <i class="home-icon">
+              <AiFillGithub />
+            </i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jonatan-arnandis/">
+            <i class="home-icon">
+              <AiFillLinkedin />
+            </i>
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
