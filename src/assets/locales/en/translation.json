@@ -31,5 +31,8 @@
   "resume.position.2017.1": "CFGM Microcomputer systems",
   "skills.tag": "Skills",
   "skills.intro": "My",
-  "skills.exp": "Skills"
+  "skills.exp": "Skills",
+  "portfolio.tag": "Projects",
+  "portfolio.intro": "Featured",
+  "portfolio.exp": "Projects"
 }

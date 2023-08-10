@@ -1,27 +1,21 @@
 import React, { useState } from "react";
-import { proyects, tags, resumeItem, skillData } from "./data";
+import { resumeItem, skillData, projectData } from "./data";
 
 export const Context = React.createContext();
 export const ContextProvider = ({ children }) => {
-  const [proyect, setProyect] = useState(proyects);
   const [resumeItems, setResumeItems] = useState(resumeItem);
   const [skillsData, setSkillsData] = useState(skillData);
+  const [projectsData, setProjectsData] = useState(projectData);
 
-  const [listTags, setListTags] = useState(tags);
-  const [selectedTags, setSelectedTags] = useState([]);
   return (
     <Context.Provider
       value={{
-        proyect,
-        setProyect,
         resumeItems,
         setResumeItems,
         skillsData,
         setSkillsData,
-        listTags,
-        setListTags,
-        selectedTags,
-        setSelectedTags,
+        projectsData,
+        setProjectsData,
       }}
     >
       {children}

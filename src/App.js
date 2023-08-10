@@ -6,6 +6,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
 import Skills from "./components/skills/Skills";
+import Portfolio from "./components/portfolio/Portfolio";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Container children={<About />}></Container>
       <Container children={<Resume />}></Container>
       <Container children={<Skills />}></Container>
+      <Container children={<Portfolio />}></Container>
       <div className="center"></div>
     </div>
   );

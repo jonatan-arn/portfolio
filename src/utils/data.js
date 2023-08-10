@@ -14,17 +14,6 @@ export const skillData = [
   { iconename: DiMysql, name: "Sql" },
 ];
 
-export const proyects = [
-  {
-    prevLink: "http://localhost:3000/",
-    codeLink: "https://github.com/jonatan-arn/portfolio",
-    tags: ["Java", "React", "Angular"],
-    img: "calc.png",
-    desc: "Calculato app made with angular and hosted in netfly",
-    name: "CalcApp",
-    hide: false,
-  },
-];
 export const resumeItem = [
   {
     date: "resume.date.present",
@@ -54,16 +43,17 @@ export const resumeItem = [
     ],
   },
 ];
-export const tags = [
-  "All",
-  "Java",
-  "React",
-  "Angular",
-  "HTML&CSS",
-  "Spring",
-  "Express",
-  "Exprsesss",
-  "Exprsssssss",
-  "Expresssss",
-  "Angularasdad",
+export const projectData = [
+  {
+    img: "truc.png",
+    name: "project.truc",
+    link: "https://truc.netlify.app/home",
+    categories: ["Angular", "Express", "Socket.io", "Prisma"],
+  },
+  {
+    img: "onfood.png",
+    name: "project.onfood",
+    link: "https://jonatan-arn.github.io/foodblog/",
+    categories: ["React", "Tailwind"],
+  },
 ];
