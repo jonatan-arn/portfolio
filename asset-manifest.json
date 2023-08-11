@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a22798ad.css",
+    "main.css": "/portfolio/static/css/main.f39d543d.css",
     "main.js": "/portfolio/static/js/main.16e5541a.js",
     "static/media/truc.png": "/portfolio/static/media/truc.3b6be92b4db4b569d293.png",
     "static/media/onfood.png": "/portfolio/static/media/onfood.3e55746b0c9d5b5451ad.png",
@@ -8,11 +8,11 @@
     "static/media/Roboto-Light.ttf": "/portfolio/static/media/Roboto-Light.8be2d1487420548b3b8d.ttf",
     "index.html": "/portfolio/index.html",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.a22798ad.css.map": "/portfolio/static/css/main.a22798ad.css.map",
+    "main.f39d543d.css.map": "/portfolio/static/css/main.f39d543d.css.map",
     "main.16e5541a.js.map": "/portfolio/static/js/main.16e5541a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a22798ad.css",
+    "static/css/main.f39d543d.css",
     "static/js/main.16e5541a.js"
   ]
 }
