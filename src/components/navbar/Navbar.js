@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Navbar.scss";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { FiBriefcase } from "react-icons/fi";
