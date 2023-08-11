@@ -35,5 +35,7 @@
   "skills.exp": "Skills",
   "portfolio.tag": "Projects",
   "portfolio.intro": "Featured",
-  "portfolio.exp": "Projects"
+  "portfolio.exp": "Projects",
+  "project.truc": "Truc - online card game (in development)",
+  "project.onfood": "Personal foodblog"
 }

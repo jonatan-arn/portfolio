@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.scss";
 import { getImage } from "../../utils/images.js";
+import { useTranslation } from "react-i18next";
 
 function PortfolioItem({ project }) {
   const namev = "project-name  project-name-active";
@@ -9,6 +10,7 @@ function PortfolioItem({ project }) {
   const categorie = "categorie";
   const [isVisible, setIsVisible] = useState(false);
   const img = getImage(project.img);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -35,7 +37,7 @@ function PortfolioItem({ project }) {
           </div>
           <h2>
             <a href="" className={isVisible ? namev : name}>
-              {project.name}
+              {t(project.name)}
             </a>
           </h2>
         </div>

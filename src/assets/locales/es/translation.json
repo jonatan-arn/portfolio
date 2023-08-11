@@ -35,5 +35,7 @@
   "skills.exp": "Habilidades",
   "portfolio.tag": "Projectos",
   "portfolio.intro": "Desctados",
-  "portfolio.exp": "Projectos"
+  "portfolio.exp": "Projectos",
+  "project.truc": "Truc - juego de cartas online (en desarrollo)",
+  "project.onfood": "Blog de recetas personal"
 }
