@@ -1,6 +1,4 @@
 import React from "react";
-import i18next from "i18next";
-import { useTranslation } from "react-i18next";
 import "./NavbarMobile.scss";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { FiBriefcase } from "react-icons/fi";
@@ -11,12 +9,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { MdLanguage } from "react-icons/md";
 import LangIconMobile from "./LangIconMobile";
 
-function NavbarMobile({ visible, hide }) {
-  const { t } = useTranslation();
-  const changeLanguage = (ln) => {
-    i18next.changeLanguage(ln);
-  };
-
+function NavbarMobile({ visible, hide, changeVisible }) {
   return (
     <>
       <div
@@ -35,12 +28,36 @@ function NavbarMobile({ visible, hide }) {
           <div className="menu-wrap">
             <p>Menu</p>
             <ul className=" scroll-nav-responsive ">
-              <NavIconMobile icon={<AiOutlineHome />} text="home" />
-              <NavIconMobile icon={<AiOutlineUser />} text="about" />
-              <NavIconMobile icon={<FiBriefcase />} text="resume" />
-              <NavIconMobile icon={<IoShapesOutline />} text="skills" />
-              <NavIconMobile icon={<TbGripVertical />} text="portfolios" />
-              <LangIconMobile icon={<MdLanguage />} text="language" />
+              <NavIconMobile
+                icon={<AiOutlineHome />}
+                text="home"
+                changeVisible={changeVisible}
+              />
+              <NavIconMobile
+                icon={<AiOutlineUser />}
+                text="about"
+                changeVisible={changeVisible}
+              />
+              <NavIconMobile
+                icon={<FiBriefcase />}
+                text="resume"
+                changeVisible={changeVisible}
+              />
+              <NavIconMobile
+                icon={<IoShapesOutline />}
+                text="skills"
+                changeVisible={changeVisible}
+              />
+              <NavIconMobile
+                icon={<TbGripVertical />}
+                text="portfolios"
+                changeVisible={changeVisible}
+              />
+              <LangIconMobile
+                icon={<MdLanguage />}
+                text="language"
+                changeVisible={changeVisible}
+              />
             </ul>
           </div>
 
